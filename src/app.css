@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: grey;
+}
+.head{
+    font-size: 50px;
+}
+.new{
+    height: 50vh;
+    /* border: 1px solid #000; */
+    overflow-y: scroll;
+}
+#bbn{
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    /* position: absolute; */
+    /* left: 75%; */
+
+}
+
+.Show{
+    /* visibility: visible; */
+    display: block;
+}
+.Hide{
+    /* visibility: hidden; */
+    display: none;
+}
